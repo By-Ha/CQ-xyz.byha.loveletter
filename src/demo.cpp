@@ -462,7 +462,7 @@ dolores_on_message("LL Drop Card", command({"弃", "弃牌", "drop", "q"}, {"!",
             cnt++;
             str += AT(x.second.qq);
         }
-    if (cnt <= 1) {
+    if (cnt <= 1 || lib.size()<=0) {
         endGame(current);
         return;
     } else {

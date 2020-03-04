@@ -1,4 +1,5 @@
 # 现在它是群LoveLetterGame的仓库了!
+
 > 注意感叹号和指令间没有空格,指令和参数间有空格
 > 
 > 说明: !说明/!sm
@@ -29,7 +30,14 @@
 > 
 > 1张8 打出或弃置 死
 
-# CoolQ C++ SDK 项目模板
+
+## 更新日志
+
+> V1.0.1 修复了当牌库中已经没有牌而最后一名玩家弃牌时游戏继续的问题.
+
+> V1.0.0 功能上线
+
+## CoolQ C++ SDK 项目模板
 
 [![Build Status](https://img.shields.io/appveyor/ci/richardchien/cqcppsdk-template.svg)](https://ci.appveyor.com/project/richardchien/cqcppsdk-template)
 
